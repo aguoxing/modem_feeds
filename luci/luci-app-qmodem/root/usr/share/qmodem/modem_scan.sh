@@ -359,9 +359,6 @@ match_config()
 
     #nari-m601
     [[ "$name" = *"m601"* ]] && name="n510m"
-    
-    #GM801
-    [[ "$name" = *"GM801"* ]] && name="gm800"
 
     modem_config=$(echo $modem_support | jq '.modem_support."'$slot_type'"."'$name'"')
     [ "$modem_config" == "null"  ] && return

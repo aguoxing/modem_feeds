@@ -902,9 +902,9 @@
                     "ecm"
                 ]
             },
-            "gm800": {
+            "gm801": {
                 "manufacturer_id": "305a",
-                "manufacturer": "gosuncn",
+                "manufacturer": "gosuncnwelink",
                 "platform": "qualcomm",
                 "data_interface": "usb",
                 "define_connect": "1",
@@ -913,7 +913,9 @@
                 "sa_band": "1/2/3/5/7/8/12/20/25/28/38/40/41/48/66/71/77/78/79",
                 "modes": [
                     "mbim",
-                    "rmnet"
+                    "ecm",
+                    "gobinet",
+                    "rndis"
                 ]
             }
         },
@@ -1262,8 +1264,8 @@
                     "rmnet"
                 ]
             },
-            "gm800": {
-                "manufacturer": "gosuncn",
+            "gm801": {
+                "manufacturer": "gosuncnwelink",
                 "platform": "qualcomm",
                 "data_interface": "pcie",
                 "define_connect": "1",
@@ -1271,9 +1273,7 @@
                 "nsa_band": "1/2/3/5/7/8/12/20/25/28/38/40/41/48/66/71/77/78/79",
                 "sa_band": "1/2/3/5/7/8/12/20/25/28/38/40/41/48/66/71/77/78/79",
                 "modes": [
-                    "qmi",
-                    "gobinet",
-                    "mbim"
+                    "qmi"
                 ]
             },
         },
