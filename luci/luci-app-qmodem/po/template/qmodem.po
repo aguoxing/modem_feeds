@@ -643,6 +643,9 @@ msgstr "有方"
 msgid "Telit"
 msgstr "泰利特"
 
+msgid "GosuncnW"
+msgstr "高新兴"
+
 msgid "Platform"
 msgstr "平台"
 

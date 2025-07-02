@@ -7,7 +7,8 @@ return {
         meig = "Meig",
         huawei = "Huawei",
         neoway = "Neoway",
-        telit = "Telit"
+        telit = "Telit",
+        gosuncn = "Gosuncn"
     },
     platforms = {
         lte = "LTE",

@@ -609,7 +609,7 @@
       },
       "gm801": {
         "manufacturer_id": "305a",
-        "manufacturer": "gosuncnwelink",
+        "manufacturer": "gosuncn",
         "platform": "qualcomm",
         "data_interface": "usb",
         "define_connect": "1",
@@ -882,7 +882,7 @@
         "modes": ["mbim", "qmi"]
       },
       "gm801": {
-        "manufacturer": "gosuncnwelink",
+        "manufacturer": "gosuncn",
         "platform": "qualcomm",
         "data_interface": "pcie",
         "define_connect": "1",
