@@ -651,6 +651,9 @@ ecm_hang()
             delay=3
             at_command='AT$MYUSBNETACT=0,0'
             ;;
+        "gosuncn")
+            at_command='AT+ZECMCALL=1'
+            ;;
         *)
             at_command="ATI"
             ;;
@@ -854,6 +857,14 @@ at_dial()
             case $platform in
                 "qualcomm")
                     at_command="AT#ICMAUTOCONN=1,1"
+                    cgdcont_command="AT+CGDCONT=1,\"$pdp_type\",\"$apn\""
+                    ;;
+            esac
+            ;;
+        "gosuncn")
+            case $platform in
+                "qualcomm")
+                    at_command="AT+ZECMCALL=1"
                     cgdcont_command="AT+CGDCONT=1,\"$pdp_type\",\"$apn\""
                     ;;
             esac
